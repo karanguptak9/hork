@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA76798A17A72EE22F32D483 /* Pods_hork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E43B7848FC36943FA936BD6 /* Pods_hork.framework */; };
+		FC6C557C20A972F300AEE48F /* MyCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6C557B20A972F300AEE48F /* MyCalendar.swift */; };
+		FC6C557E20AAE02300AEE48F /* CalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6C557D20AAE02300AEE48F /* CalcViewController.swift */; };
+		FC6C558020AAE03200AEE48F /* CalcAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6C557F20AAE03200AEE48F /* CalcAlgo.swift */; };
+		FC6C558220AAECD700AEE48F /* todoAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6C558120AAECD700AEE48F /* todoAlgo.swift */; };
+		FC6C558420AAECE600AEE48F /* todoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6C558320AAECE600AEE48F /* todoViewController.swift */; };
+		FC9C692620A6BA7B00A43499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C692520A6BA7B00A43499 /* AppDelegate.swift */; };
+		FC9C692820A6BA7B00A43499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C692720A6BA7B00A43499 /* ViewController.swift */; };
+		FC9C692B20A6BA7B00A43499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9C692920A6BA7B00A43499 /* Main.storyboard */; };
+		FC9C692D20A6BA7C00A43499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9C692C20A6BA7C00A43499 /* Assets.xcassets */; };
+		FC9C693020A6BA7C00A43499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9C692E20A6BA7C00A43499 /* LaunchScreen.storyboard */; };
+		FC9C693B20A6BA7C00A43499 /* horkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C693A20A6BA7C00A43499 /* horkTests.swift */; };
+		FC9C694620A6BA7C00A43499 /* horkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C694520A6BA7C00A43499 /* horkUITests.swift */; };
+		FCA8F5B820A8FEA000AE91E8 /* CryptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA8F5B720A8FEA000AE91E8 /* CryptoTableViewController.swift */; };
+		FCA8F5BA20A8FECC00AE91E8 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA8F5B920A8FECC00AE91E8 /* CryptoTableViewCell.swift */; };
+		FCA8F5BC20A8FEE200AE91E8 /* CurrencyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA8F5BB20A8FEE200AE91E8 /* CurrencyType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC9C693720A6BA7C00A43499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9C691A20A6BA7B00A43499 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9C692120A6BA7B00A43499;
+			remoteInfo = hork;
+		};
+		FC9C694220A6BA7C00A43499 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC9C691A20A6BA7B00A43499 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC9C692120A6BA7B00A43499;
+			remoteInfo = hork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4083E98FE89001DA5F976A5A /* Pods-hork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hork.release.xcconfig"; path = "Pods/Target Support Files/Pods-hork/Pods-hork.release.xcconfig"; sourceTree = "<group>"; };
+		8E43B7848FC36943FA936BD6 /* Pods_hork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C8363EA5BBD07567EDA283 /* Pods-hork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hork/Pods-hork.debug.xcconfig"; sourceTree = "<group>"; };
+		FC6C557B20A972F300AEE48F /* MyCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCalendar.swift; sourceTree = "<group>"; };
+		FC6C557D20AAE02300AEE48F /* CalcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewController.swift; sourceTree = "<group>"; };
+		FC6C557F20AAE03200AEE48F /* CalcAlgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcAlgo.swift; sourceTree = "<group>"; };
+		FC6C558120AAECD700AEE48F /* todoAlgo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoAlgo.swift; sourceTree = "<group>"; };
+		FC6C558320AAECE600AEE48F /* todoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todoViewController.swift; sourceTree = "<group>"; };
+		FC9C692220A6BA7B00A43499 /* hork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9C692520A6BA7B00A43499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC9C692720A6BA7B00A43499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC9C692A20A6BA7B00A43499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC9C692C20A6BA7C00A43499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC9C692F20A6BA7C00A43499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC9C693120A6BA7C00A43499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9C693620A6BA7C00A43499 /* horkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = horkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9C693A20A6BA7C00A43499 /* horkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horkTests.swift; sourceTree = "<group>"; };
+		FC9C693C20A6BA7C00A43499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC9C694120A6BA7C00A43499 /* horkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = horkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC9C694520A6BA7C00A43499 /* horkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = horkUITests.swift; sourceTree = "<group>"; };
+		FC9C694720A6BA7C00A43499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA8F5B720A8FEA000AE91E8 /* CryptoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewController.swift; sourceTree = "<group>"; };
+		FCA8F5B920A8FECC00AE91E8 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		FCA8F5BB20A8FEE200AE91E8 /* CurrencyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC9C691F20A6BA7B00A43499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA76798A17A72EE22F32D483 /* Pods_hork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C693320A6BA7C00A43499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C693E20A6BA7C00A43499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B397768C033EE1130CA5C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E43B7848FC36943FA936BD6 /* Pods_hork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A021CB89E040586A9D4F237F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2C8363EA5BBD07567EDA283 /* Pods-hork.debug.xcconfig */,
+				4083E98FE89001DA5F976A5A /* Pods-hork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC9C691920A6BA7B00A43499 = {
+			isa = PBXGroup;
+			children = (
+				FC9C692420A6BA7B00A43499 /* hork */,
+				FC9C693920A6BA7C00A43499 /* horkTests */,
+				FC9C694420A6BA7C00A43499 /* horkUITests */,
+				FC9C692320A6BA7B00A43499 /* Products */,
+				A021CB89E040586A9D4F237F /* Pods */,
+				6B397768C033EE1130CA5C47 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC9C692320A6BA7B00A43499 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C692220A6BA7B00A43499 /* hork.app */,
+				FC9C693620A6BA7C00A43499 /* horkTests.xctest */,
+				FC9C694120A6BA7C00A43499 /* horkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC9C692420A6BA7B00A43499 /* hork */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C692520A6BA7B00A43499 /* AppDelegate.swift */,
+				FC9C692720A6BA7B00A43499 /* ViewController.swift */,
+				FC9C692920A6BA7B00A43499 /* Main.storyboard */,
+				FC9C692C20A6BA7C00A43499 /* Assets.xcassets */,
+				FC9C692E20A6BA7C00A43499 /* LaunchScreen.storyboard */,
+				FC9C693120A6BA7C00A43499 /* Info.plist */,
+				FCA8F5B720A8FEA000AE91E8 /* CryptoTableViewController.swift */,
+				FCA8F5B920A8FECC00AE91E8 /* CryptoTableViewCell.swift */,
+				FCA8F5BB20A8FEE200AE91E8 /* CurrencyType.swift */,
+				FC6C557B20A972F300AEE48F /* MyCalendar.swift */,
+				FC6C557D20AAE02300AEE48F /* CalcViewController.swift */,
+				FC6C557F20AAE03200AEE48F /* CalcAlgo.swift */,
+				FC6C558320AAECE600AEE48F /* todoViewController.swift */,
+				FC6C558120AAECD700AEE48F /* todoAlgo.swift */,
+			);
+			path = hork;
+			sourceTree = "<group>";
+		};
+		FC9C693920A6BA7C00A43499 /* horkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C693A20A6BA7C00A43499 /* horkTests.swift */,
+				FC9C693C20A6BA7C00A43499 /* Info.plist */,
+			);
+			path = horkTests;
+			sourceTree = "<group>";
+		};
+		FC9C694420A6BA7C00A43499 /* horkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C694520A6BA7C00A43499 /* horkUITests.swift */,
+				FC9C694720A6BA7C00A43499 /* Info.plist */,
+			);
+			path = horkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC9C692120A6BA7B00A43499 /* hork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9C694A20A6BA7C00A43499 /* Build configuration list for PBXNativeTarget "hork" */;
+			buildPhases = (
+				C807E8F5686C821E359CA96A /* [CP] Check Pods Manifest.lock */,
+				FC9C691E20A6BA7B00A43499 /* Sources */,
+				FC9C691F20A6BA7B00A43499 /* Frameworks */,
+				FC9C692020A6BA7B00A43499 /* Resources */,
+				0962AEDED9BEF858E74FCD6D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hork;
+			productName = hork;
+			productReference = FC9C692220A6BA7B00A43499 /* hork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC9C693520A6BA7C00A43499 /* horkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9C694D20A6BA7C00A43499 /* Build configuration list for PBXNativeTarget "horkTests" */;
+			buildPhases = (
+				FC9C693220A6BA7C00A43499 /* Sources */,
+				FC9C693320A6BA7C00A43499 /* Frameworks */,
+				FC9C693420A6BA7C00A43499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9C693820A6BA7C00A43499 /* PBXTargetDependency */,
+			);
+			name = horkTests;
+			productName = horkTests;
+			productReference = FC9C693620A6BA7C00A43499 /* horkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC9C694020A6BA7C00A43499 /* horkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC9C695020A6BA7C00A43499 /* Build configuration list for PBXNativeTarget "horkUITests" */;
+			buildPhases = (
+				FC9C693D20A6BA7C00A43499 /* Sources */,
+				FC9C693E20A6BA7C00A43499 /* Frameworks */,
+				FC9C693F20A6BA7C00A43499 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC9C694320A6BA7C00A43499 /* PBXTargetDependency */,
+			);
+			name = horkUITests;
+			productName = horkUITests;
+			productReference = FC9C694120A6BA7C00A43499 /* horkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC9C691A20A6BA7B00A43499 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Karan Gupta";
+				TargetAttributes = {
+					FC9C692120A6BA7B00A43499 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					FC9C693520A6BA7C00A43499 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FC9C692120A6BA7B00A43499;
+					};
+					FC9C694020A6BA7C00A43499 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = FC9C692120A6BA7B00A43499;
+					};
+				};
+			};
+			buildConfigurationList = FC9C691D20A6BA7B00A43499 /* Build configuration list for PBXProject "hork" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC9C691920A6BA7B00A43499;
+			productRefGroup = FC9C692320A6BA7B00A43499 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC9C692120A6BA7B00A43499 /* hork */,
+				FC9C693520A6BA7C00A43499 /* horkTests */,
+				FC9C694020A6BA7C00A43499 /* horkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC9C692020A6BA7B00A43499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9C693020A6BA7C00A43499 /* LaunchScreen.storyboard in Resources */,
+				FC9C692D20A6BA7C00A43499 /* Assets.xcassets in Resources */,
+				FC9C692B20A6BA7B00A43499 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C693420A6BA7C00A43499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C693F20A6BA7C00A43499 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0962AEDED9BEF858E74FCD6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-hork/Pods-hork-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hork/Pods-hork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C807E8F5686C821E359CA96A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC9C691E20A6BA7B00A43499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C557C20A972F300AEE48F /* MyCalendar.swift in Sources */,
+				FCA8F5B820A8FEA000AE91E8 /* CryptoTableViewController.swift in Sources */,
+				FCA8F5BA20A8FECC00AE91E8 /* CryptoTableViewCell.swift in Sources */,
+				FC6C557E20AAE02300AEE48F /* CalcViewController.swift in Sources */,
+				FC6C558220AAECD700AEE48F /* todoAlgo.swift in Sources */,
+				FC9C692820A6BA7B00A43499 /* ViewController.swift in Sources */,
+				FC9C692620A6BA7B00A43499 /* AppDelegate.swift in Sources */,
+				FCA8F5BC20A8FEE200AE91E8 /* CurrencyType.swift in Sources */,
+				FC6C558420AAECE600AEE48F /* todoViewController.swift in Sources */,
+				FC6C558020AAE03200AEE48F /* CalcAlgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C693220A6BA7C00A43499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9C693B20A6BA7C00A43499 /* horkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC9C693D20A6BA7C00A43499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9C694620A6BA7C00A43499 /* horkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC9C693820A6BA7C00A43499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC9C692120A6BA7B00A43499 /* hork */;
+			targetProxy = FC9C693720A6BA7C00A43499 /* PBXContainerItemProxy */;
+		};
+		FC9C694320A6BA7C00A43499 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC9C692120A6BA7B00A43499 /* hork */;
+			targetProxy = FC9C694220A6BA7C00A43499 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC9C692920A6BA7B00A43499 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9C692A20A6BA7B00A43499 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC9C692E20A6BA7C00A43499 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC9C692F20A6BA7C00A43499 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC9C694820A6BA7C00A43499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC9C694920A6BA7C00A43499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC9C694B20A6BA7C00A43499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C8363EA5BBD07567EDA283 /* Pods-hork.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98A5832JAD;
+				INFOPLIST_FILE = hork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaranGupta.hork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC9C694C20A6BA7C00A43499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4083E98FE89001DA5F976A5A /* Pods-hork.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 98A5832JAD;
+				INFOPLIST_FILE = hork/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaranGupta.hork;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC9C694E20A6BA7C00A43499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = horkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaranGupta.horkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hork.app/hork";
+			};
+			name = Debug;
+		};
+		FC9C694F20A6BA7C00A43499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = horkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaranGupta.horkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hork.app/hork";
+			};
+			name = Release;
+		};
+		FC9C695120A6BA7C00A43499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = horkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaranGupta.horkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hork;
+			};
+			name = Debug;
+		};
+		FC9C695220A6BA7C00A43499 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = horkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KaranGupta.horkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hork;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC9C691D20A6BA7B00A43499 /* Build configuration list for PBXProject "hork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9C694820A6BA7C00A43499 /* Debug */,
+				FC9C694920A6BA7C00A43499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9C694A20A6BA7C00A43499 /* Build configuration list for PBXNativeTarget "hork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9C694B20A6BA7C00A43499 /* Debug */,
+				FC9C694C20A6BA7C00A43499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9C694D20A6BA7C00A43499 /* Build configuration list for PBXNativeTarget "horkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9C694E20A6BA7C00A43499 /* Debug */,
+				FC9C694F20A6BA7C00A43499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC9C695020A6BA7C00A43499 /* Build configuration list for PBXNativeTarget "horkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC9C695120A6BA7C00A43499 /* Debug */,
+				FC9C695220A6BA7C00A43499 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC9C691A20A6BA7B00A43499 /* Project object */;
+}
