@@ -11,7 +11,7 @@ import UIKit
 
         //first having each crypto in a value of identification
 enum CurrencyType: String {
-        //calling data from the crypto
+        //calling data from cryptocompare
     var apiURL: URL? {
         let apiString = "https://min-api.cryptocompare.com/data/price?fsym=" + rawValue + "&tsyms=USD"
         return URL(string: apiString)
